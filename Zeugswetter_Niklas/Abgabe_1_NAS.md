@@ -15,7 +15,8 @@ NAS steht für „Network Attached Storage“ und bezeichnet ein Speichersystem,
 
 Ein NAS ist in der Regel ein kleines, spezialisiertes Gerät mit mehreren Festplatten, das als Datei-Server dient. Es arbeitet eigenständig, benötigt keinen angeschlossenen PC oder Server und bietet häufig zusätzliche Funktionen wie automatische Backups, Medienserver oder Benutzerverwaltung. Moderne NAS-Systeme sind leicht zu bedienen und werden vor allem im Privatbereich aber auch immer mehr in Firmen verwendet.
 
-![NAS Schaubild](./assets/NAS_Schaubild.png)
+![NAS Schaubild](assets/NAS_Schaubild.png)
+
 Auf dem Bild sieht man das Prinzip eines NAS ganz gut. Auf dem NAS können Dateien, Videos, Musik und Filme liegen welche von anderen Netzwerkgeräten wie SmartTVs oder PCs abgerufen werden können.
 
 ## Architektur
