@@ -86,7 +86,7 @@ VLANs werden direkt in Switches eingerichtet. Ein sogenannter **Managed Switch**
 
 # 7. Beispielhafte VLAN-Architektur
 
-![VLAN-Architektur](./assets/VLAN.png)
+![VLAN-Architektur](assets/VLAN.png)
 
 Das Bild zeigt ein Netzwerk, in dem VLANs eingesetzt werden, um zwei Gerätegruppen logisch voneinander zu trennen. Obwohl alle Geräte über denselben Switch verbunden sind, sorgt die VLAN-Konfiguration dafür, dass sie getrennt kommunizieren.
 
