@@ -1,0 +1,115 @@
+# Simulation vs. Emulation
+
+## Einleitung
+
+In der Informatik und Technik begegnen uns häufig die Begriffe **Simulation** und **Emulation**. Beide Methoden dienen dazu, das Verhalten von Systemen nachzubilden, unterscheiden sich jedoch grundlegend in ihrer Herangehensweise und Zielsetzung. Diese Ausarbeitung beleuchtet die Unterschiede, Einsatzgebiete, technische Funktionsweisen sowie gängige Tools beider Ansätze.
+
+---
+
+## Definitionen
+
+### Simulation
+
+Eine **Simulation** ist die modellhafte Nachbildung eines Systems, um dessen Verhalten unter bestimmten Bedingungen zu analysieren. Dabei wird ein theoretisches Modell erstellt, das das reale System vereinfacht abbildet.
+
+**Beispiel:** In der Netzwerksimulation mit Tools wie ns-3 oder Cisco Packet Tracer werden Netzwerkverhalten und -topologien virtuell dargestellt, ohne dass echte Datenpakete übertragen werden.
+
+### Emulation
+
+Eine **Emulation** hingegen zielt darauf ab, ein System so exakt wie möglich nachzubilden, sodass Software für das Originalsystem auf der Emulation lauffähig ist. Dabei wird sowohl die Hardware- als auch die Softwareumgebung des Zielsystems imitiert.
+
+**Beispiel:** Emulatoren wie QEMU oder DOSBox ermöglichen das Ausführen von Software, die ursprünglich für andere Plattformen entwickelt wurde, auf modernen Systemen.
+
+---
+
+## Technische Funktionsweise
+
+### Simulation
+
+- **Modellierung:** Erstellung eines abstrakten Modells des Zielsystems.
+- **Parameterdefinition:** Festlegung von Variablen und Bedingungen.
+- **Ausführung:** Simulation des Systemverhaltens unter verschiedenen Szenarien.
+- **Analyse:** Bewertung der Ergebnisse zur Optimierung oder Vorhersage.
+
+### Emulation
+
+- **Hardware-Nachbildung:** Imitation der Zielhardware auf Bit-Ebene.
+- **Software-Ausführung:** Betrieb von Originalsoftware innerhalb der emulierten Umgebung.
+- **Interaktion:** Möglichkeit zur Interaktion mit der emulierten Software wie im Originalsystem.
+
+---
+
+## Vergleich: Simulation vs. Emulation
+
+| Kriterium             | Simulation                                | Emulation                                 |
+|-----------------------|-------------------------------------------|-------------------------------------------|
+| Ziel                  | Analyse und Vorhersage von Systemverhalten| Ausführung von Software auf anderer Hardware |
+| Genauigkeit           | Näherungsweise                            | Hohe Genauigkeit                          |
+| Geschwindigkeit       | In der Regel schneller                    | Kann langsamer sein aufgrund der Komplexität |
+| Ressourcenbedarf      | Geringer                                  | Höher                                     |
+| Beispiele             | Netzwerksimulation, Wettermodelle         | Konsolenemulatoren, Betriebssystememulatoren |
+
+---
+
+## Gängige Tools
+
+### Simulation
+
+- **ns-3:** Netzwerksimulator für Internet-Systeme.
+- **Cisco Packet Tracer:** Simulationswerkzeug für Netzwerktechnologien.
+- **MATLAB/Simulink:** Simulation dynamischer Systeme.
+
+### Emulation
+
+- **QEMU:** Allgemeiner Emulator für verschiedene Hardwareplattformen.
+- **DOSBox:** Emulator für ältere DOS-Anwendungen.
+- **Android Emulator:** Emulation von Android-Geräten für App-Tests.
+
+---
+
+## Visualisierung
+
+![Vergleich zwischen Simulation und Emulation](images/1_JIP61dnT3Vx3uQWffxkafA.webp)
+
+*Quelle: [Medium – Emulators vs Simulators and Difference between them](https://ravindugunarathna.medium.com/emulators-vs-simulators-and-difference-between-them-3602321a2aef)*
+
+---
+
+### Beschreibung der Grafik
+
+Die Grafik veranschaulicht die Unterschiede und Gemeinsamkeiten zwischen **Simulation**, **Emulation** und **echten Geräten (Real Devices)**:
+
+- **Simulation**:
+  - Stellt das Verhalten eines Systems nach, ohne dessen echte Hardware oder Software zu imitieren.
+  - Wird verwendet, um das Verhalten unter bestimmten Bedingungen zu beobachten und zu analysieren, ohne das originale System zu beeinflussen.
+  - Beispiel: Netzwerksimulationen oder Flugzeugsimulatoren.
+
+- **Emulation**:
+  - Versucht, sowohl die **Hardware- als auch die Softwareumgebung** eines echten Systems exakt nachzubilden, sodass Software, die für das Originalsystem entwickelt wurde, auf der Emulation läuft.
+  - Ermöglicht es, Software auszuführen, die auf anderen Plattformen nicht laufen würde, da die Emulation die Originalumgebung imitiert.
+  - Beispiel: Emulation von Konsolen für das Spielen von älteren Spielen.
+
+- **Echte Geräte (Real Devices)**:
+  - Reale, physische Systeme, die die Originalhardware und -software enthalten.
+  - Wird für Tests und Entwicklungen verwendet, die eine exakte Replikation des tatsächlichen Systems erfordern.
+  - Beispiel: Ein echter Computer, ein Smartphone oder ein Netzwerkgerät.
+
+Die Unterschiede zwischen diesen drei Konzepten:
+- **Simulation** ist die einfachste Form und hat den größten Unterschied zum realen System.
+- **Emulation** stellt eine sehr genaue Nachbildung eines Systems dar.
+- **Echte Geräte** sind die tatsächlichen Hardware-Komponenten, auf denen Software ohne Nachbildung ausgeführt wird.
+
+
+## Fazit
+
+Simulation und Emulation sind essentielle Methoden in der Technik und Informatik. Während Simulationen vor allem zur Analyse und Vorhersage von Systemverhalten dienen, ermöglichen Emulationen die Ausführung von Software auf nicht originaler Hardware. Die Wahl zwischen beiden Ansätzen hängt von den spezifischen Anforderungen und Zielen des jeweiligen Projekts ab.
+
+---
+
+## Quellen
+
+- [GeeksforGeeks: Difference between Emulation and Simulation](https://www.geeksforgeeks.org/difference-between-emulation-and-simulation/)
+- [Baeldung: Differences Between Simulation and Emulation](https://www.baeldung.com/cs/simulation-vs-emulation)
+- [Perfecto: What Are Simulators and Emulators?](https://www.perfecto.io/blog/emulation-vs-simulation)
+
+[def]: .images/1_JIP61dnT3Vx3uQWffxkafA.webp
