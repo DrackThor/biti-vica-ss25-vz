@@ -1,0 +1,16 @@
+---
+- name: Ansible Hello World Example
+  hosts: all
+  tasks:
+    - name: Create a hello world file in the home directory
+      copy:
+        content: "Hello, World! This file was created by Ansible."
+        dest: ~/hello_world.txt
+    - name: Install required packages
+      apt:
+        name:
+          - ca-certificates
+          - curl
+          - gnupg
+        state: present
+        update_cache: yes
