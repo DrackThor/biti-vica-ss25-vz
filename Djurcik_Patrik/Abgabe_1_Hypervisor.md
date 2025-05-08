@@ -1,4 +1,4 @@
-# Thema: Type 1 Hypervisor
+# Thema: Hypervisor
 
 ## Inhaltsverzeichnis
 
