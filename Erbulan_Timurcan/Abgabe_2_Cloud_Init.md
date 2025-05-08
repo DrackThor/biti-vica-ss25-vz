@@ -59,6 +59,10 @@ Cloud-Init läuft in mehreren Phasen beim ersten Start einer Instanz:
    runcmd:
      - systemctl enable nginx
      - systemctl start nginx
+
+   final_message:
+     - "Cloud-Init Konfiguration abgeschlossen."
+
    
 5. **Persistenz und Wiederholbarkeit**  
    Cloud-Init speichert Logs und Status, um zu verhindern, dass bestimmte Konfigurationen mehrfach ausgeführt werden.
