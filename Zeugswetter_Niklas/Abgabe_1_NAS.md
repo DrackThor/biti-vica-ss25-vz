@@ -4,7 +4,7 @@ NAS.md
 
 1. [Was ist ein NAS?](#was-ist-ein-nas)
 2. [Architektur](#architektur)
-3. [Gängige Protokolle & Produkte](#gängige-protokolle--produkte)
+3. [Gängige Protokolle](#gängige-protokolle)
 4. [Anwendungsfälle](#anwendungsfälle)
 5. [Vorteile und Nachteile](#vorteile-und-nachteile)
 6. [Quellen](#quellen)
@@ -15,7 +15,8 @@ NAS steht für „Network Attached Storage“ und bezeichnet ein Speichersystem,
 
 Ein NAS ist in der Regel ein kleines, spezialisiertes Gerät mit mehreren Festplatten, das als Datei-Server dient. Es arbeitet eigenständig, benötigt keinen angeschlossenen PC oder Server und bietet häufig zusätzliche Funktionen wie automatische Backups, Medienserver oder Benutzerverwaltung. Moderne NAS-Systeme sind leicht zu bedienen und werden vor allem im Privatbereich aber auch immer mehr in Firmen verwendet.
 
-![NAS Schaubild](./assets/NAS_Schaubild.png)
+![NAS Schaubild](assets/NAS_Schaubild.png)
+
 Auf dem Bild sieht man das Prinzip eines NAS ganz gut. Auf dem NAS können Dateien, Videos, Musik und Filme liegen welche von anderen Netzwerkgeräten wie SmartTVs oder PCs abgerufen werden können.
 
 ## Architektur
@@ -39,36 +40,29 @@ Typische Bestandteile:
 - **RAID-Controller oder Software-RAID**  
   Dient der Absicherung gegen Festplattenausfälle. Je nach Konfiguration können Daten im laufenden Betrieb gespiegelt oder verteilt werden.
 
-## Gängige Protokolle & Produkte
+## Gängige Protokolle
 
 Ein NAS nutzt verschiedene Netzwerkprotokolle, um Dateien bereitzustellen und von unterschiedlichen Geräten aus zugänglich zu sein. Je nach Betriebssystem oder Anwendungsfall kommen unterschiedliche Protokolle zum Einsatz:
 
-- **SMB / CIFS** – Standard in Windows-Umgebungen für Dateifreigaben
-- **NFS** – Vor allem bei Linux- und UNIX-Systemen im Einsatz
-- **AFP** – Früheres Apple-Protokoll, inzwischen durch SMB ersetzt
-- **FTP / SFTP** – Für Dateiübertragungen lokal oder übers Internet
-- **WebDAV** – Zugriff via Browser oder WebDAV-Client über HTTP/HTTPS
-- **DLNA / UPnP** – Für Streaming im Heimnetz (z. B. auf TV oder Lautsprecher)
+- **SMB / CIFS (Server Message Block)**  
+  Hauptsächlich in Windows-Umgebungen verwendet. Ermöglicht Dateifreigaben, Netzlaufwerke und Druckerfreigaben.
 
-Viele NAS-Systeme unterstützen mehrere Protokolle gleichzeitig.
+- **NFS (Network File System)**  
+  Kommt vor allem bei Linux- und UNIX-Systemen zum Einsatz. Wird gerne für leistungsstarke Serverumgebungen genutzt.
 
-### Beispielprodukte (bekannte NAS-Geräte)
+- **AFP (Apple Filing Protocol)**  
+  Älteres Apple-Protokoll für die Dateifreigabe. Wird heute zunehmend durch SMB ersetzt.
 
-- **Synology**
-  - *DS220+* – Kompaktes 2-Bay-NAS für zuhause
-  - *DS923+* – Leistungsstärker, 4-Bay, ist erweiterbar
+- **FTP / SFTP (File Transfer Protocol / Secure FTP)**  
+  Für einfachen oder verschlüsselten Datei-Upload und -Download – auch über das Internet. Wird z. B. für Webserver oder automatisierte Backups verwendet.
 
-- **QNAP**
-  - *TS-233* – Einsteigergerät mit ARM-CPU
-  - *TS-464* – 4-Bay-NAS mit HDMI-Ausgang und x86-CPU
+- **WebDAV (Web-based Distributed Authoring and Versioning)**  
+  Ermöglicht Zugriff auf Dateien über HTTP/HTTPS – kompatibel mit vielen Apps und Plattformen.
 
-- **Asustor**
-  - *Drivestor 2* – Preisgünstiges NAS für zuhause
-  - *Lockerstor 4* – Mehr Leistung & 2,5-Gbit-LAN
+- **DLNA / UPnP**  
+  Dient dem Medienstreaming im Heimnetz (z. B. an Smart TVs, Lautsprecher oder Konsolen).
 
-
-Diese Geräte unterscheiden sich je nach Einsatzzweck in Gehäusegröße, Festplatteneinschüben, CPU, RAM, Energieverbrauch und verfügbaren Funktionen.
-
+Viele NAS-Systeme unterstützen diese Protokolle parallel – Nutzer können je nach Gerät und Zweck das passende wählen.
 
 ## Anwendungsfälle
 
