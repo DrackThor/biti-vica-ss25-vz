@@ -1,5 +1,3 @@
-NAS.md
-
 ## Inhaltsverzeichnis
 
 1. [Was ist ein NAS?](#was-ist-ein-nas)
