@@ -5,7 +5,7 @@
 lsblk
 
 # get all filesystems
-df-h
+df -h
 
 # list all network interfaces
 ip a
