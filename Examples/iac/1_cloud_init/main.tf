@@ -43,7 +43,8 @@ resource "exoscale_compute_instance" "vm" {
   disk_size   = 50
   security_group_ids = [exoscale_security_group.sg_ssh_only.id]
   ssh_keys = [exoscale_ssh_key.my_ssh_key.name]
-  user_data = templatefile("${path.module}/cloud_init.tpl", { text = "hello-world"})
+  # user_data = templatefile("${path.module}/cloud_init.tpl", { text = "hello-world"})
+  user_data = templatefile("${path.module}/cloud_init_2.tpl", {})
 }
 
 resource "tls_private_key" "my_ssh_key" {
