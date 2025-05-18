@@ -23,7 +23,7 @@ Es ist ein zentraler Bestandteil moderner Cloud-Deployments und unterstützt Dev
 ---
 
 
-![Alt text](C:\Users\terbu\Documents\GitHub\biti-vica-ss25-vz\Erbulan_Timurcan\Assets\CloudInit.png)
+![Alt text](https://github.com/Katsu420/biti-vica-ss25-vz/tree/main/Erbulan_Timurcan/Assets)
 
 
 ---
