@@ -22,6 +22,12 @@ Es ist ein zentraler Bestandteil moderner Cloud-Deployments und unterstützt Dev
 
 ---
 
+
+![Alt text](C:\Users\terbu\Documents\GitHub\biti-vica-ss25-vz\Erbulan_Timurcan\Assets\CloudInit.png)
+
+
+---
+
 ## Technische Funktionsweise (Überblick)
 
 Cloud-Init läuft in mehreren Phasen beim ersten Start einer Instanz:
