@@ -46,7 +46,7 @@ Quelle: https://www.varonis.com/de/blog/what-is-terraform#wie-funktioniert-terra
 
 Terraform Console ist ein Werkzeug, welches direkt in Terraform integriert ist. Mit dem Befehl „terraform console“ kann man eine interaktive Umgebung starten, in der man Terraform-Ausdrücke testen und auswerten kann. So kann man komplexe Logik oder Variablenberechnungen ausprobieren, ohne den gesamten Code ausführen zu müssen. Dies spart Zeit und hilft, Fehler früh zu erkennen. Hier ein Beispiel:
 
-![Terraform Console Terminal](1.png)
+![Terraform Console Terminal](assets/1.png)
 
 Quelle: https://spacelift.io/blog/terraform-tools
 
@@ -56,7 +56,7 @@ Zwei der beliebtesten Tools für Terraform sind HashiCorp Terraform und Terrafor
 
 Diese Tools machen Visual Studio Code zu einer der leistungsstarken Entwicklungsumgebungen für Terraform. Sie bieten Funktionen wie Syntaxhervorhebung, automatische Code-Vervollständigung und integriertes Debugging. Dadurch wird die Entwicklung deutlich effizienter und der Arbeitsablauf wird erleichtert.
 
-![Terraform Tools](2.png)
+![Terraform Tools](assets/2.png)
 
 Quelle: https://www.env0.com/blog/top-terraform-tools-to-know-in-2024
  
