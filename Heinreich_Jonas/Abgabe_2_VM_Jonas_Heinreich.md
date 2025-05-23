@@ -58,7 +58,7 @@ Virtualisierung bezeichnet das Verfahren, bei dem eine softwarebasierte, also vi
 
 # 5. Virtuelle Maschinen - Grafische Veranschaulichung
 
-![VM-Architektur](./VM.png)
+![VM-Architektur](assets/VM.png)
 
 Diese Grafik zeigt, wie virtuelle Maschinen (VMs) auf physischen Servern über eine Virtualisierungsschicht (Hypervisor) betrieben werden. Jede VM besitzt ein eigenes Betriebssystem sowie die nötigen Bibliotheken und Anwendungen und ist vom Host-System isoliert. Zusätzlich können mehrere Virtualisierungsserver gemeinsam auf einen zentralen Speicher zugreifen, wodurch eine flexible und skalierbare Infrastruktur entsteht.
 
