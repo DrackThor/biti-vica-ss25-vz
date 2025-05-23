@@ -12,8 +12,8 @@ COPY assets/ /usr/share/nginx/html/
 # nginx image provides a built-in nginx user
 USER nginx
 
-# Expose port 80 for web traffic
-EXPOSE 80
+# Expose port 8080 for web traffic
+EXPOSE 8080
 
 # No need for CMD as the nginx base image already includes it
 # Default CMD: ["nginx", "-g", "daemon off;"]

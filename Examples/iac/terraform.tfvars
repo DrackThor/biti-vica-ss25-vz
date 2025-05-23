@@ -1,2 +1,2 @@
-key = "changeme"
-secret = "changeme"
+key = "deleteme"
+secret = "deleteme"
